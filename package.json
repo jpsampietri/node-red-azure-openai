@@ -1,0 +1,20 @@
+{
+  "name": "azureopenai",
+  "version": "1.0.0",
+  "description": "Azure OpenAI node",
+  "main": "azure-openai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JPSampietri",
+  "license": "MIT",
+  "keywords": ["azure", "openai", "gpt", "chat", "node-red"],
+  "node-red": {
+    "nodes": {
+      "azure-openai": "azure-openai.js"
+    }
+  },
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.12"
+  }
+}
